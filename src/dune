@@ -1,0 +1,11 @@
+(library
+ (name binary)
+ (modules binary)
+ (libraries binaryen))
+
+(executable
+ (name test)
+ (public_name test.exe)
+ (modules test)
+ (libraries binary binaryen.native))
+ 

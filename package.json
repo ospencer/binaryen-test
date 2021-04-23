@@ -2,6 +2,9 @@
   "dependencies": {
     "ocaml": "4.11.x",
     "@opam/dune": "*",
-    "@grain/binaryen.ml": "0.8.0"
+    "@grain/binaryen.ml": "*"
+  },
+  "resolutions": {
+    "@grain/binaryen.ml": "link:../binaryen.ml"
   }
 }

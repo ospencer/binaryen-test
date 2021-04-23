@@ -1,6 +1,0 @@
-(executable
- (name test)
- (public_name test.exe)
- (package test)
- (libraries binaryen.native binaryen))
- 
